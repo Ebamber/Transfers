@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "8532c517-4b5f-428c-b588-1775f1eaaf60",
+		"name": "Transfers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "accounts",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Edward/Documents/GitHub/ixaris-transfers-spring-boot/transfers/src/main/resources/transfers.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8082/accounts",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"accounts"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "C:\\Users\\Edward\\Documents\\GitHub\\ixaris-transfers-spring-boot\\transfers\\src\\main\\resources\\transfers.txt",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

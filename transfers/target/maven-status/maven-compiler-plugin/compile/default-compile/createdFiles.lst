@@ -1,0 +1,10 @@
+com\ixaris\interview\transfers\TransfersApplication.class
+com\ixaris\interview\transfers\model\Transaction$TransactionBuilder.class
+com\ixaris\interview\transfers\service\AccountService.class
+com\ixaris\interview\transfers\model\FileReaderResponse$FileReaderResponseBuilder.class
+com\ixaris\interview\transfers\service\FileReaderService.class
+com\ixaris\interview\transfers\model\FileReaderResponse.class
+com\ixaris\interview\transfers\controller\FileReaderController.class
+com\ixaris\interview\transfers\model\Account.class
+com\ixaris\interview\transfers\model\Account$AccountBuilder.class
+com\ixaris\interview\transfers\model\Transaction.class
